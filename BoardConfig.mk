@@ -165,7 +165,7 @@ BOARD_VOLD_MAX_PARTITIONS                   := 19
 BOARD_MTP_DEVICE                            := /dev/mtp_usb
 
 # CMHW
-BOARD_HARDWARE_CLASS                        := hardware/samsung/cmhw/
+BOARD_HARDWARE_CLASS                        := device/samsung/kyleprods/cmhw/
 
 # GPS
 TARGET_SPECIFIC_HEADER_PATH                 := device/samsung/kyleprods/include
