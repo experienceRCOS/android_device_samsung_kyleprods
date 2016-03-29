@@ -19,9 +19,9 @@
   - WIFI/Bluetooth/FM-Radio: BCM4330
 
 ### Notice:
-  - Apply patch *PATCH_CM-13.0.diff* to root directory of CM-13.0 source code before build
+  - Apply *PATCH_CM-13.0.diff* to root directory of CM-13.0 source code before building
 
-### Other resource:
+### Other resources:
   - Kernel source: https://github.com/SandPox/android_kernel_samsung_kyleproxx
   - Vendor blobs: https://github.com/SandPox/android_vendor_samsung_kyleproxx
 
