@@ -148,6 +148,9 @@ include frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk
 #Packages
 PRODUCT_PACKAGES += \
      
+# Boot animation
+PRODUCT_COPY_FILES += \
+      device/samsung/kylepro/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
